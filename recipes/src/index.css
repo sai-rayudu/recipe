@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+.root{
+    display: flex;
+    justify-content: center;
+}
+.container{
+   width:1200px ;
+    text-align: center;
+}
+header .title{
+    margin: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight:lighter;
+    color: rgb(17, 23, 80);
+ 
+}
+header form{
+    padding: 10px;
+}
+.inputfiled input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    font-size:20px ;
+    margin:10px ;
+    border: 2px solid rgb(55, 61, 66);
+
+}
+.inputfiled input:focus{
+    outline: 2px rgb(3, 70, 84) solid;
+    border: none;
+}
+form .button{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-left:10px ;
+    border-radius:10px ;
+    letter-spacing: 2px;
+    background-color: rgba(11, 86, 248, 0.827);
+    color: aliceblue;
+    border: none;
+    
+}
+form .button:hover{
+  border: 2px solid grey;
+}
+.container .cards{
+    margin-top: 30px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit,300px);
+     padding: 10px;
+     justify-content: center;
+     justify-items: center;
+     grid-row-gap: 40px;
+    
+
+}
+.cards .card{
+    min-height: 270px;
+    width: 250px;
+   border-radius: 5px;
+    display: grid;
+    align-content:space-evenly;
+    justify-items: center;
+    margin: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px black;
+    transition: all 0.5s;
+    color: black;
+   
+   
+}
+.cards .card:hover{
+    background: rgba(9, 64, 70, 0.251);
+   
+}
+.card img{
+    height: 200px;
+    width: 220px;
+    border-radius:5px ;
+}
+.card p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 3px;
+    font-weight: 900;
+   
+
+}
+.no{
+    color: red;
+    text-align: center;
+}
+.non{
+    color: rgb(89, 0, 255);
+    text-align: center;
+}
+.recipe{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 20px;
+
+}
+.recipe .recipecontainer{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0px 0px 4px grey;
+    min-height: 50px;
+   
+   
+   
+
+
+}
+.recipe .recipecontainer .recipedetails{
+    padding: 20px;
+}
+.recipedetails p{
+   
+    font-size:25px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 1px blue;
+    margin-top: 30px;
+    
+}
+.recipedetails .recipename{
+    text-align: center;
+    text-decoration: underline;
+    font-size:35px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.681);
+    text-shadow: 0px 0px 1px rgb(5, 243, 235);
+
+}
+.recipedetails ul{
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.recipedetails ul li{
+    margin-top: 5px;
+    letter-spacing: 2px;
+   text-shadow: 0px 0px 1px black;
+}
+.text{
+    text-indent: 20px;
+    margin-top: 10px;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 1px grey;
+}
+.button{
+    margin-top: 20px;
+    text-align: center;
+
+}
+button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: rgba(247, 74, 11, 0.936);
+    color: white;
+    text-shadow: 0px 0px 5px rgb(154, 239, 8);
+    border: none;
+}
